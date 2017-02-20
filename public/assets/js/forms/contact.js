@@ -35,16 +35,16 @@ var ContactForm = function () {
 	            {
 	                name:
 	                {
-	                    required: 'Please enter your name',
+	                    required: '이름을 입력해주세요!',
 	                },
 	                email:
 	                {
-	                    required: 'Please enter your email address',
-	                    email: 'Please enter a VALID email address'
+	                    required: '이메일 주소를 입력해주세요!',
+	                    email: '올바른 이메일 주소를 입력해주세요!'
 	                },
 	                message:
 	                {
-	                    required: 'Please enter your message'
+	                    required: '궁금하신 점을 작성해 주세요!'
 	                },
 	                captcha:
 	                {
