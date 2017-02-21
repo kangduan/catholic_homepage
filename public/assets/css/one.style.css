@@ -418,11 +418,13 @@ a:hover {
   color: #fff;
   border: solid 1px #fff;
   border-radius: 50% !important;
+  float: right;
   text-align: center;
   padding-top: 7px;
   margin-right: 5px;
 }
 .top-nav-collapse .top-contact-block i {
+  float: right;
   color: #777;
   border-color: #777;
 }
