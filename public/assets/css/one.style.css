@@ -439,11 +439,13 @@ a:hover {
 }
 @media (max-width: 991px) {
   .top-contact-block {
+    /*
     position: absolute;
     top: 10px;
     left: 130px;
     float: none;
     padding: 0;
+    */
     display: none;
   }
 }
