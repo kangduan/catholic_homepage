@@ -8,6 +8,7 @@
 /*Parallax Slider (Main)
 ------------------------------------*/
 .slider-inner .da-slider {
+   opacity: 0.7;
    box-shadow: none;
    border-bottom: 2px solid #ddd;
 }
@@ -41,8 +42,7 @@
 
 .tp-banner-container ul li,
 .fullscreenbanner-container ul li {
-  background-color:rgba(0, 0, 0, 0.7);
-  opacity: 0.7;
+
   list-style: none;
   visibility: hidden;
 }
