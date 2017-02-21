@@ -4771,6 +4771,9 @@
 	.counters:last-child {
 		margin-bottom: inherit;
 	}
+  .counters span {
+  	font-size: 25px;
+  }
 }
 
 .counters span {
