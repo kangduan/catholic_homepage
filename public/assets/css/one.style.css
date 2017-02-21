@@ -582,6 +582,7 @@ a:hover {
 ------------------------------------*/
 /*Intro Section*/
 .intro-section {
+  background-color:rgba(0, 0, 0, 0.7);
   background: #222;
 }
 
