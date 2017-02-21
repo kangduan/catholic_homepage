@@ -413,8 +413,8 @@ a:hover {
 }
 .top-contact-block i {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   color: #fff;
   border: solid 1px #fff;
   border-radius: 50% !important;
@@ -428,10 +428,10 @@ a:hover {
 }
 .top-contact-block a {
   color: #fff;
+  font-size: 25px;
   position: relative;
   top: 1px;
 }
-
 .top-contact-block a:hover {
   text-decoration: none;
 }
