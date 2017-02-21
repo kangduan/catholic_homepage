@@ -431,6 +431,15 @@ a:hover {
   position: relative;
   top: 1px;
 }
+@media (max-width: 991px) {
+  .top-contact-block a {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    float: right;
+    padding: 0;
+  }
+}
 .top-contact-block a:hover {
   text-decoration: none;
 }
@@ -444,11 +453,6 @@ a:hover {
     left: 130px;
     float: none;
     padding: 0;
-  }
-}
-@media (max-width: 780px) {
-  .top-contact-block {
-    float: right;
   }
 }
 @media (max-width: 480px) {
