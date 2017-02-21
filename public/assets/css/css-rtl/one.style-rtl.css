@@ -405,7 +405,7 @@ a:hover {
 
 /* Top Contacts Block */
 .top-contact-block {
-  float: left;
+  float: right;
   padding: 9px 20px 0 0;
   font-weight: 300;
   font-size: 16px;
