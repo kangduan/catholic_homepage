@@ -4,10 +4,9 @@ class HomeController < ApplicationController
   end
   def write
 
-    post = Post.new
-    post.name = params[:name]
-    post.email = params[:email]
-    post.message = params[:message]
+    @name = params[:name]
+    @email = params[:email]
+    @message = params[:message]
 
     mg_client = Mailgun::Client.new("key-a61ca9d4c080eae610c5b83771d3fdbc")
 
@@ -22,8 +21,7 @@ class HomeController < ApplicationController
 
                   message_id = result['id']
                   message = result['message']
-    if post.save
-    redirect_to '/'
+
 
 
   end
