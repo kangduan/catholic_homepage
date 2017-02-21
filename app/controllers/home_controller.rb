@@ -12,9 +12,9 @@ class HomeController < ApplicationController
     mg_client = Mailgun::Client.new("key-a61ca9d4c080eae610c5b83771d3fdbc")
 
     message_params =  {
-                   from: @name,
+                   from: @email,
                    to:   'cuk@likelion.org',
-                   subject: @email,
+                   subject: @name,
                    text:    @message
                   }
 
