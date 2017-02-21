@@ -23,6 +23,6 @@ class HomeController < ApplicationController
                   message = result['message']
 
 
-
+    redirect_to '/'
   end
 end
