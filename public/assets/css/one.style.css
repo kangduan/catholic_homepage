@@ -442,7 +442,7 @@ a:hover {
     position: absolute;
     top: 10px;
     left: 130px;
-    float: none;
+    float: right;
     padding: 0;
   }
 }
@@ -582,7 +582,6 @@ a:hover {
 ------------------------------------*/
 /*Intro Section*/
 .intro-section {
-  background-color:rgba(0, 0, 0, 0.7);
   background: #222;
 }
 
