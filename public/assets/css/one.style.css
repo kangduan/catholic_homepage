@@ -442,8 +442,9 @@ a:hover {
     position: absolute;
     top: 10px;
     left: 130px;
-    float: right;
+    float: none;
     padding: 0;
+    display: none;
   }
 }
 @media (max-width: 480px) {
