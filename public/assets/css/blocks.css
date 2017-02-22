@@ -4517,7 +4517,8 @@
 .tp-banner-container ul li,
 .fullscreenbanner-container ul li {
   list-style: none;
-  visibility: hidden;
+  visibility: visible;
+  opacity: 0.7;
 }
 
 .tp-banner-container a.btn-u,
@@ -4635,8 +4636,8 @@
   font-weight: 200;
   padding: 6px 75px;
   position: relative;
-  border-top: solid 2px #fff;
-  border-bottom: solid 2px #fff;
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff;
 }
 
 
@@ -4652,7 +4653,6 @@
   .rs-caption-1:after,
   .rs-caption-1:before {
     content: "";
-    font-size: 16px;
   }
 }
 
@@ -4685,25 +4685,11 @@
   margin-left: -50px;
   position: absolute;
 }
-@media (max-width: 768px) {
-  .rs-caption-2:after,
-  .rs-caption-2:before {
-    content: "";
-    font-size: 12px;
-  }
-}
 
 .rs-caption-3 a {
   margin: 0 5px;
   padding: 7px 20px;
   text-transform: uppercase;
-}
-@media (max-width: 768px) {
-  .rs-caption-3:after,
-  .rs-caption-3:before {
-    content: "";
-    font-size: 12px;
-  }
 }
 
 
