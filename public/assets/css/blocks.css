@@ -4639,15 +4639,10 @@
   border-bottom: solid 1px #fff;
 }
 
-@media (max-width: 768px) {
-  .rs-caption-1 {
-    font-size: 24px;
-  }
-}
 
 .rs-caption-1:after,
 .rs-caption-1:before {
-  font-size: 16px;
+  font-size: 20px;
   content: "\f005";
   position: absolute;
   font-family: FontAwesome;
@@ -4677,11 +4672,7 @@
   padding: 10px 50px;
   text-align: center;
 }
-@media (max-width: 768px) {
-  .rs-caption-2 {
-    font-size: 18px;
-  }
-}
+
 
 .rs-caption-2:after {
   left: 50%;
@@ -4698,12 +4689,6 @@
   margin: 0 5px;
   padding: 7px 20px;
   text-transform: uppercase;
-}
-
-@media (max-width: 768px) {
-  .rs-caption-3 {
-    font-size: 18px;
-  }
 }
 
 
