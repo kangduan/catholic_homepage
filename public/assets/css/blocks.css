@@ -2087,7 +2087,7 @@
   visibility: hidden;
   min-height: 150px;
   margin-top: -75px;
-  /*text-align: center;*/
+  text-align: center;
   position: absolute;
   font-family: "Open Sans", Arial, sans-serif;
 }
@@ -2119,9 +2119,9 @@
 .portfolio-box-v1 .portfolio-box-v1-in h3 {
   color: #fff;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .portfolio-box-v1 .portfolio-box-v1-in h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -2129,7 +2129,7 @@
   font-size: 16px;
   margin-bottom: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .portfolio-box-v1 .portfolio-box-v1-in p {
     font-size: 12px;
   }
