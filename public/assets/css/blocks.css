@@ -2465,9 +2465,22 @@
   font-size: 16px;
   text-transform: uppercase;
 }
+@media (max-width: 768px) {
+  .parallax-counter h4 {
+    color: #999;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 
+}
 .parallax-counter span.counter {
   font-size: 48px;
+}
+@media (max-width: 768px) {
+  .parallax-counter span.counter {
+    font-size: 32px;
+  }
+
 }
 
 /*Parallax Counter v1
