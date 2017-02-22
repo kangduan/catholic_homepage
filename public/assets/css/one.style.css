@@ -413,8 +413,8 @@ a:hover {
 }
 .top-contact-block i {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   color: #fff;
   border: solid 1px #fff;
   border-radius: 50% !important;
@@ -422,13 +422,17 @@ a:hover {
   padding-top: 7px;
   margin-right: 5px;
 }
+.top-contact-block i .fa{
+  width: 18px;
+  height: 18px;
+}
 .top-nav-collapse .top-contact-block i {
   color: #777;
   border-color: #777;
 }
 .top-contact-block a {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
   top: 1px;
 }
