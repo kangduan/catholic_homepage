@@ -416,15 +416,16 @@ a:hover {
   width: 18px;
   height: 18px;
   color: #fff;
-  border: solid 1px #fff;
-  border-radius: 50% !important;
+  /*-> 감싸는 동그라미없애기*/
+  /*border: solid 1px #fff;*/
+  /*border-radius: 50% !important;*/
   text-align: center;
   padding-top: 7px;
   margin-right: 5px;
 }
+/*멋쟁이 사자처럼 공식 홈페이지 ->*/
 .top-contact-block i .fa{
-  width: 18px;
-  height: 18px;
+  font-size: 18px;
 }
 .top-nav-collapse .top-contact-block i {
   color: #777;
@@ -432,7 +433,7 @@ a:hover {
 }
 .top-contact-block a {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   top: 1px;
 }
@@ -450,6 +451,15 @@ a:hover {
     float: none;
     padding: 0;
   }
+  /*멋사 공식홈페이지 글자 없애기*/
+  .top-contact-block a{
+    display: none;
+  }
+  /*멋사 공식홈페이지 화살표 없애기*/
+  .top-contact-block i{
+    display: none;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -588,7 +598,6 @@ a:hover {
 ------------------------------------*/
 /*Intro Section*/
 .intro-section {
-
   background: #222;
 }
 
